@@ -1,0 +1,91 @@
+.container {
+    width: 900px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.container .kotak {
+    background-color: aqua;
+    width: 215px;
+    margin: 5 5 5 5;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+}
+
+.container2 {
+    width: 890px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.container2 img {
+    float: left;
+    width: 25%;
+}
+
+.container3 {
+    width: 890px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.container3, .kotak1, .kotak2, .kotak3 {
+    height: 500px;
+    line-height: 500px;
+    text-align: center  ;
+}
+
+.container3 .kotak1 {
+    background-color: aqua;
+    width: 245px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container3 .kotak2 {
+    background-color: rgb(130, 203, 203);
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.container3 .kotak3 {
+    background-color: rgb(87, 116, 116);
+    float: left;
+    width: 245px;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+ .cf:before,
+ .cf:after {
+     content: " "; 
+     display: table; 
+ }
+ .cf:after {
+     clear: both;
+ }
+ .cf {
+     *zoom: 1;
+ }
+
+/* clear = untuk menghentikan / menghentikan float (tambahkan cf setelah menuliskan class/id) */ 
+/* .cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+} */

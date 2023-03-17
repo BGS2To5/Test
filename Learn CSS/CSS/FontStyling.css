@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 30px;
+}
+
+font familiy = buat ngubah font
+font size = ubah ukuran tulisan  ( stauannya = px )
+font weight = ubah ketebalan tulisan
+font variant = awal tulisan lebih gede dari 
+line heigt = ngatur jarak tinggi spasi

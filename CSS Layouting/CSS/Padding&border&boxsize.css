@@ -1,0 +1,24 @@
+div {
+    width: 900px;
+    margin: 5 auto;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.satu {
+    background-color: aqua;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.dua {
+    background-color: aquamarine;
+    padding: 20px;
+    border: 4px dashed gold;
+}
+
+
+/* 
+padding tidak ada yang namanya auto dan minus
+border = solid, dotted, dashed, double
+box-sizing: border-box; = biar ukuran widt selalu pas dari ukuran yang sudah ditentukan dari parents */

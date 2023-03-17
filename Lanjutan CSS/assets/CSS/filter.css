@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-size: cover;
+}
+
+
+
+img {
+    width: 400px;
+    BOX-shadow: 3px 3px 10px black;
+    transition: 0.5s;
+}
+
+img:hover {
+    width: 500px;
+    filter: saturate(2);
+    box-shadow: 0 0 30px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+filter: ; = 
+blur ()
+brightness(angka | %)
+contrast(angka | %)
+saturate(angka | %)
+grayscale(angka | %)
+sepia(angka | %) = jadi abu ke kuning kuningan 
+hue-rotate( deg)
+invert(angka | %) = kaya efek hitam putih film
+opacity(angka | %) = sama kaya opacity
+drop-shadow(angka | %) (sama kaya box-shadow) 
+*/
+
+

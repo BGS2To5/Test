@@ -1,0 +1,27 @@
+a {
+    color: violet;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+p {
+    text-align: justify;
+    color: brown ;
+    text-indent: 20px;
+    text-transform: capitalize;
+    word-spacing: normal;
+}
+
+text indent = memberikan jarak awal tulisan ( kaya Bahasa Indonesia)
+text decoration (under,over,linetrought) = ngasih coretan di tulisan / pun ngilangin coretan
+text transform = ngubah huruf jadi gede semua / kecil / awal gede
+letter spacing = jarak antar huruf
+word spacing = jarak antar kata 
+
+a color { color: inherit; } = a bakal ngikut warna prent yang dikasih
+
+

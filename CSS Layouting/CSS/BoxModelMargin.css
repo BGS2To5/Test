@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.jajal {
+    background-color: aqua;
+    margin: 20px 30px;
+}
+
+.tu {
+    background-color: aqua;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto  ;
+}
+
+.wa {
+    background-color: rgb(85, 147, 147);
+    width: 65px;
+    height: 65px;
+    margin: -75 auto;
+}
+
+.ga {
+    background-color: rgb(48, 81, 81);
+    width: 45px;
+    height: 45px;
+    margin: 20 auto;
+}
+
+.satu, .dua, .tiga {
+    display: inline-block;
+}
+
+.satu {
+    background-color: aqua;
+    width: 125px;
+    height: 125px;
+    margin-right: 20px; 
+    margin-bottom: 20px;
+}
+
+.dua {
+    background-color: rgb(101, 163, 163);
+    width: 105px;
+    height: 105px;
+    margin-right: 20px;
+}
+.tiga {
+    background-color: rgb(67, 93, 93);
+    width: 75px;
+    height: 75px;
+}
+/* Margin = jarak kotak web ke padding
+padding = jarak padding ke content
+kalo make inline-block. ga mau nyatu = jarak di codingan dihapus (jangan make enter)
+kalo margin vertikal (dipilih melalui margin yang paling besar) / kalau  yang horizontal, dijumlahkan
+margin - , akan membuat elem bergerak kearah yang berlawanan. bawahnya juga akan ikut
+margin = 30px atas,bawah,kiri kanan
+margin = 30px 50px (atas bawah 30px, kiri kanan 50px)
+margin = 30px 20px 50px (atas 30px, kiri kanan 20px, bawah 50px)
+margin = 30px 20px 25px 50px (searah jarum jam) */

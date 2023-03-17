@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Alex AlexBrush-Regular;
+    src: url('../font/AlexBrush-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Chunk Five Print;
+    src: url('../font/Chunk\ Five\ Print.otf') format('truetype');
+}
+
+@font-face {
+    font-family: ChunkFive-Regular;
+    src: url('../font/ChunkFive-Regular.otf') format('truetype') ;
+}
+
+@font-face {
+    font-family: KaushanScript-Regular;
+    src: url('../font/KaushanScript-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: After_Shok;
+    src: url('../font/After_Shok.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Allura-Regular;
+    src: url('../font/Allura-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: AirAmerica-Regular;
+    src: url('../font/AirAmerica-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: Anagram;
+    src: url('../font/Anagram.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Allura-Regular;
+    src: url('../font/Allura-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: Amadeus;
+    src: url('../font/Amadeus.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url('../font/Pacifico.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/OpenSans-Regular-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Alex AlexBrush-Regular;
+}
+
+.p2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Chunk Five Print;
+}
+
+.p3 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: ChunkFive-Regular;
+}
+
+.p4 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: KaushanScript-Regular;
+}
+
+.p5 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: After_Shok;
+}
+
+.p6 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Allura-Regular;
+}
+
+.p7 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: AirAmerica-Regular;
+}
+
+.p7 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Anagram.ttf;
+}
+
+.p8 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Allura-Regular;
+}
+
+.p9 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Amadeus;
+}
+
+.p10 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: open_sansregular;
+}
+
+/* 
+sintaxnya
+@font-face {
+    font-family: Nama Font;
+    src: url('../font/AlexBrush-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: Nama Font;
+    src: url('../font/AlexBrush-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: Nama Font;
+    src: url('../font/AlexBrush-Regular.woff2') format('woff2');
+}
+*/

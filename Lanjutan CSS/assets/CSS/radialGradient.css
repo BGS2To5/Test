@@ -1,0 +1,37 @@
+.radial1 {
+    width: 400px;
+    height: 150px;
+    margin: 10 auto 30 auto;
+    background-image:  radial-gradient( circle closest-corner, red , blue );
+}
+
+.radial2 {
+    width: 400px;
+    height: 250px;
+    margin: 10 auto 30 auto;
+    background-image: radial-gradient( circle farthest-corner, blue, green);
+}
+
+.radial3 {
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    background-image: radial-gradient( circle at top center, red, blue);
+}
+
+
+
+
+
+
+
+
+/* 
+closest side, closest corner 
+fartherst-side, fartherst-corner
+
+ellipse & circle
+*/
+
+
+

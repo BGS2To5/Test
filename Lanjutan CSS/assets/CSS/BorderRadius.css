@@ -1,0 +1,40 @@
+.jajal {
+    height: 340px;
+    width: 340px;
+    background-color: salmon;
+    border-radius: 0 50% 0 50%;
+    margin: 0 auto 200 auto;
+    overflow: hidden;
+}
+
+.jajal img {
+    width: 340px;
+}
+
+
+.p2 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(205, 56, 40);
+    margin: auto;
+    border-radius:50% 50% 50% 50%;
+    background-image: url(https://i.ibb.co/QMSJyFk/Whats-App-Image-2022-05-28-at-09-17-47-1.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.circle {
+    height: 70px;
+    width: 150px;
+    background-color: lightcoral;
+    margin: 30 auto 100 auto;
+    border: 10px solid blue ;
+    border-radius: 0 0 100px 100px;
+}
+
+
+/* 
+border radius = digunakan agar menjadi lingkaran
+
+*/
+

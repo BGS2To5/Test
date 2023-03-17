@@ -1,0 +1,17 @@
+.navigasi li {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.navigasi li a {
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/* div & span bukan lah kata yang hidup (namun display defaulnya block) = digunakan untuk pengelompokkan */

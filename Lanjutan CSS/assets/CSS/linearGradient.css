@@ -1,0 +1,26 @@
+.linear {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto 30px auto;
+    background-image: linear-gradient(360deg,red,yellow,green) ;
+}
+
+.linear2 {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto 30px auto;
+    background-image: linear-gradient(to right top,red,yellow,green) ;
+}
+
+.linear3 {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto 30px auto;
+    background-image: linear-gradient(to right ,red 50%,blue 80%) ;
+}
+
+
+/* 
+kiri atas, kiri bawah, kanan atas, kanan bawah
+to bottom, to top, to left, to right. to left top, to right top
+*/

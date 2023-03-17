@@ -1,0 +1,48 @@
+.kotak1 {
+    width: 250px;
+    height: 250px;
+    background-color: slateblue;
+    margin: 30 auto 0 auto;
+    box-shadow: 0px 33px 5px -21px rgba(0, 0, 0, .8) ;
+    transition: .1s;
+}
+
+.kotak1:hover {
+    margin-top: 40px;
+    box-shadow: 0px 60px 6px -30px rgba(0, 0, 0, .20) ;
+}
+
+.kotak2 {
+    width: 120px;
+    height: 120px;
+    background-color: saddlebrown;
+    margin: 50 auto 0 auto;
+    box-shadow: inset -8px -5px 10px 3px rgb(0, 0, 0, 1) ;
+}
+
+.kotak3 {
+    width: 150px;
+    height: 150px;
+    background-color: lawngreen;
+    margin:20 auto 0 auto;
+    box-shadow: 5px 5px 5px rgb(255, 0, 0), -5px -5px 5px rgb(0, 0, 255);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+/* 
+boxshadow =
+(masukin nilai bayangan y) (masukin nilai bayangan x) (Masukin seberapa tebal bayangannya) (Masukin apa warna banyakan yang kita mau)
+inset bayangan bakalmasuk ke dalam content. tergantung blurnya ( di ke 3)
+
+*/
+
+
+
+

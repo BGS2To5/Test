@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body {
+    font: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1496016943515-7d33598c11e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-size: cover;
+    background-position: 0 -550;
+}
+
+.container {
+    width: 900px;
+    box-sizing: border-box;
+    margin: auto;
+    background: rgb(71,8,112);
+    background: linear-gradient(180deg, rgba(71,8,112,1) 0%, rgba(119,21,184,1) 100%);
+}
+
+.header {
+    padding: 20px;
+    border: 5px solid darkorchid;
+}
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 15 10 0 0;
+    font-size: 13px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgba(168, 122, 240, 0.596);
+}
+
+.header ul li a:hover {
+    background: rgb(152, 27, 63);
+    background: linear-gradient(107deg, rgba(152, 27, 63, 1) 0%, rgba(68, 38, 130, 1) 100%);
+    color: rgb(230, 55, 55);
+    padding: 5px;
+}
+
+.gambar {
+    height: 350px;
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    border-left: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+    border-bottom: 5px solid blueviolet;
+}
+
+.content {
+    padding: 20px;
+    color: rgba(249, 143, 178, 0.596);
+}
+
+.content h2 {
+    font-size: 22px;
+    color:rgb(174, 96, 247) ;
+    font-weight: 600;
+    margin: 0 0 5 0;
+}
+
+.content p, .content .ig a  {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 15px;
+    color:rgba(10, 251, 251, 0.853) ;
+}
+
+.footer, .footer p a {
+    color: rgba(144, 214, 142, 0.963);
+    padding: 20px;
+    background-color: rgb(87, 84, 84);
+
+}
+

@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container2 {
+    width: 600px;
+    border: 3px double gold;
+    margin: auto;
+    padding: 5px;
+}
+
+.container2 .kotak1, .kotak2, .kotak3, .kotak4, .kotak5, .kotak6, .kotak7, .kotak8, .kotak9, .kotak10 {
+    width: 80px;
+    height: 80px;
+    color: rgb(49, 77, 77);
+    background-color: bisque;
+    line-height: 80px;
+    text-align: center;
+    font-size: larger;
+    margin: 2px;
+    float: right;
+}
+
+.container {
+    width: 800px;
+    border: 3px solid black;
+    margin: 0 auto 10 auto;
+    padding: 5px;
+}
+
+.kiri {
+    width: 200px;
+    background-color: aqua;
+    float: left;
+    box-sizing: border-box;
+}
+
+.tengah {
+    width: 400px;
+    background-color: rgb(132, 183, 183);
+    float: left;
+}
+
+.kanan {
+    background-color: rgb(101, 135, 135);
+    width: 200px;
+    float: left;
+}
+
+.col1 {
+    width: 200px;background-color: antiquewhite;
+    float: left;
+}
+.col2 {
+    width: 200px;
+    float: left;
+    background-color: aquamarine;
+}
+.col3 {
+    width: 200px;
+    float: left;
+    background-color: aqua; }
+.col4{
+    width: 200px;
+    float: left;
+    background-color: blanchedalmond;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* float = digunakan untuk menggeser object ke kiri ataupun ke kanan */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

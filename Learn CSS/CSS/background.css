@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.uCZUwxWpE4jeZhANfsLtOgHaFj&pid=Api&P=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+h2 {
+    color: rgb(58, 150, 150);
+    font-size: 150px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+
+
+backgorund repeat=buat ngulang gambar jadi ke sumbu x / y kalo make background no repeat=bisa make background position (top/center/bottom & lef/center/bottom)

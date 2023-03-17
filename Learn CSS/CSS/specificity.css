@@ -1,0 +1,7 @@
+ul#sarapan li {
+    color: aqua;
+}
+
+ul#sarapan li.favorit {
+    color: blue;
+}

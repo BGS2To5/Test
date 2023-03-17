@@ -1,0 +1,21 @@
+body {
+    background: rgb(217,228,119);
+    background: linear-gradient(90deg, rgba(217,228,119,1) 0%, rgba(225,225,226,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+ul li a, ol li a {
+    text-decoration: none;
+    color: brown;
+}
+
+h1 {
+    color: rgb(98, 149, 132);
+}
+
+h2 {
+    color: rgb(240, 190, 116);
+}
+
+p {
+    color: coral;
+}

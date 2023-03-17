@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 950px;
+    border: 2px solid black;
+    top: 30px;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 10px;
+}
+
+.kotak1{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kotak2{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s ease-in;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kotak3{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s ease-out;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kotak4{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kotak5{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s linear;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kotak6{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s cubic-bezier(0.01,-0.38, 0.89, 1.5);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kotak7{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    transition:1.5s ease 1s;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.container:hover .kotak1, .container:hover .kotak2, .container:hover .kotak3, .container:hover .kotak4, .container:hover .kotak5, .container:hover .kotak6, .container:hover .kotak7 {
+    height: 150px;
+    width: 150px;
+    margin-left: 800px;
+    background-color: aqua;
+    transform: rotate(360deg);
+}
+
+/* 
+ease = awal cepet akhir lambat
+ease-in awal lambat akhir cepet
+ease-out = gerakan nya stabil
+ease-in-out = awal agak cepet akhir agak lambat
+linear = paling stabil
+*/

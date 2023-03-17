@@ -1,0 +1,224 @@
+/* Font */
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url('../font/BebasNeue-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url('../font/BebasNeue-Regular.woff') format('woff');
+}
+
+body {
+    font-family: BebasNeue;
+    background-color: #eee;
+    position: relative;
+}
+
+body h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 1px 1px 1px slateblue;
+    font-family: BebasNeue;
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+}
+
+
+
+.gallery li {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #666;
+    float: left;
+    left: 25px;
+    position: relative;
+    margin-right: 15px;
+}
+
+
+a span {
+    font-family: BebasNeue-Regular;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(200, 200, 200, .5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 120px;
+    color: #333;
+    text-shadow: 1px 1px 1px #ddd;
+    opacity: .00000000000001;
+    transition: 0.3s;
+    transform: scale(0) rotate(0deg);
+}
+
+
+
+a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+/* overlay */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .0);
+    z-index: 99999999;
+    transition: .3s;
+    text-align: center;
+    top: 0;
+    left: 0;
+    animation: Zoom;
+
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.overlay:target img {
+    max-height: 80%;
+    position: relative;
+    top: 65px;
+    animation: Zoom .5s;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -30px;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    border: 1px solid #ddd;
+    text-shadow: 0px 0px 4px lightgreen;
+    padding: 2px;
+    opacity: 0;
+}
+
+.overlay:target .close {
+    animation: Down 1s 0.3s forwards;
+}
+
+.gallery .akhir {
+    text-shadow: 1px 1px .5px rgb(111, 111, 253), -1px -1px .5px rgb(255, 142, 142);
+    font-family: BebasNeue;
+    border-radius: 0%;
+    border: 0px;
+    text-align: center;
+    position: relative;
+    left: 235px;
+    top: 40px;
+    width: 120px;
+    height: 32px;
+}
+
+.gallery .fb {
+    border-radius: 0%;
+    border: 0px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(51, 51, 51, .9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.footer p {
+    opacity: 1;
+    font-family: BebasNeue;
+    text-decoration: none;
+    color: #ddd;
+    text-shadow: 0 0 5px yellow;
+}
+
+.footer a {
+    font-family: BebasNeue;
+    color: #ddd;
+}
+
+/* Navigasi */
+.next {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://i.ibb.co/FwYcSj2/next-button-icon-1.png');
+    display: inline-block;
+    text-indent: 9999999;
+    position: absolute;
+    margin-left: 20px;
+    top: 43%;
+    filter: opacity(.4);
+}
+
+.back {
+    width: 90px;
+    height: 90px;
+    background-image: url('https://i.ibb.co/3hnrncw/previous-button-icon-1.png');
+    display: inline-block;
+    text-indent: 9999999;
+    position: absolute;
+    filter: opacity(.4);
+    z-index: 1;
+    top: 43%;
+    margin-left: -110px;
+}
+
+
+/* Animation */
+@keyframes Zoom {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes Down {
+    0% {
+        opacity: 0;
+        margin-top: -20;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+

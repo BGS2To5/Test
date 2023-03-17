@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.font {
+    height: 123px;
+    text-align: center;
+}
+
+.teks1 {
+    color: white;
+    text-shadow: 0 0 10px yellow;
+    margin-bottom: 30px;
+}
+
+.teks2 {
+    color: #222;
+    background-color: #666;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 1px white;
+}
+
+.teks3 {
+    margin-bottom: 30px;
+    background: #def;
+    color: rgba(10, 60, 150, .8);
+    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+}
+
+.teks4 {
+    color: #333;
+    background: white;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.teks7 {
+    background-color: #3a50d9;
+      color: #e0eff2;
+      font-style: italic;
+      font-weight: bold;
+      font-family: georgia;
+      text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+}
